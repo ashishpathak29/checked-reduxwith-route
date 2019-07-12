@@ -4,8 +4,7 @@ import Login from "../components/Login/login"
 
 
 // Function passed in to `connect` to subscribe to Redux store updates.
-// Any time it updates, mapStateToProps is called.
-// The second argument "ownProps" contains props passed to the component
+
 const mapStateToProps = (state, ownProps) => {	
 
 	let nextPathname = "/"
@@ -21,8 +20,7 @@ const mapStateToProps = (state, ownProps) => {
 }
 
 // Connects React component to the redux store
-// It does not modify the component class passed to it
-// Instead, it returns a new, connected component class, for you to use.
+
 export default connect(
 	mapStateToProps,
 	userActions

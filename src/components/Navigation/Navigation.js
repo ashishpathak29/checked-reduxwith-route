@@ -30,17 +30,8 @@ export default class Navigation extends Component {
 				{
 					!loginSuccess 
 					? <button onClick={this._logout} style={buttonStyle}>Logout</button>
-					: <Link to="/login">Log In</Link>
+					: <Link to="/login">Log Out</Link>
 				}				
-				{/* {
-					!this.props.user.authenticated 
-					? <span>&nbsp;|&nbsp;<Link to="/register">Register</Link></span>
-					: ""
-				}				 */}
-				&nbsp;|&nbsp;
-				{/* <Link to="/myprofile">MyProfile</Link> */}
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				{/* <Link to="/">About This Repo</Link> */}
 			</div>
 		)
 	}

@@ -4,7 +4,6 @@ import { fetchItemsIfNeeded } from '../actions/items';
 import Search from '../components/Search';
 import Results from '../components/Results';
 import Loader from '../components/Loader';
-//import Logo from '../components/Logo';
 
 import './layout.scss';
 
@@ -28,7 +27,6 @@ class AsyncApp extends Component {
     return (
       <div className="container">
         <header className="header">
-          {/* <Logo /> */}
           <Search value={searchStr} onChange={this.handleChange} />
         </header>
         <section className="content">

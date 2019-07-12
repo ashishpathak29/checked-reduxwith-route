@@ -14,9 +14,7 @@ export default class Login extends Component {
     render() {
    // store.getState();
  console.log(this.props.user);
-      //  console.log(loginSuccess);
-     
-        //loginSuccess = false;fetc
+
         return (
             <div style={{ padding: 15 }}>
             <h2>STAR WARS APP LOGIN </h2>

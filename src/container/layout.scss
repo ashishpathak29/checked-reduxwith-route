@@ -35,6 +35,8 @@ a {
     flex-direction: row;
   }
 }
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child{margin: 50px 76px;    text-align: center;}
+form>div button[type=submit]:before,form>div>div>span:before{display: none;}
 
 .header {
   display: flex;
@@ -42,7 +44,9 @@ a {
   width: 100%;
   color: $base-color;
   flex-direction: column;
-
+.results__info span ,.search__subtitle{
+    color: #83c11f;
+}
   @media screen and (min-width: $laptop) {
     position: fixed;
     width: 40%;

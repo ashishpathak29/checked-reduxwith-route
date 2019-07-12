@@ -64,7 +64,7 @@ function submit(values,state) {
           else{
             loginSuccess = false;
             loginStatus= false;
-            window.alert('Wrong Username!! Please Check And Try Again');
+            window.alert('You are not success full login');
             return;
           }
          
